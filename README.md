@@ -6,7 +6,7 @@
 | Test | Model | Macro AUC | No Sub | Sphere/CDM | Vort/Axion | Accuracy |
 |---|---|---|---|---|---|---|
 | Common Test I | ResNet-18 (Pretrained) | 0.9940 | 0.9948 | 0.9916 | 0.9956 | 95.8% |
-| Specific Test VII | Physics-Informed ResNet-18 : SIS lensing layer, learned θ_E) | **0.9953** | 0.9958 | 0.9924 | 0.9978 | 96.2% |
+| Specific Test VII | Physics-Informed ResNet-18 : SIS lensing layer, learned θ_E | **0.9953** | 0.9958 | 0.9924 | 0.9978 | 96.2% |
 | Specific Test IX.A | MAE ViT-Small | **0.9992** | 1.0000 | 0.9990 | 0.9987 | 98.9% |
 
 ### Super-Resolution (Test IX.B)
