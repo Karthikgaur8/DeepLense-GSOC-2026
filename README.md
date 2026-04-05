@@ -10,11 +10,11 @@
 | Specific Test IX.A | MAE ViT-Small | **0.9992** | 1.0000 | 0.9990 | 0.9987 | 98.9% |
 
 ### Super-Resolution (Test IX.B)
-| Metric | Value |
-|---|---|
-| MSE | 0.000072 |
-| SSIM | 0.9732 |
-| PSNR | 41.46 dB |
+MAE encoder pretrained on no_sub (Task IX.A), fine-tuned with residual learning on bicubic + encoder features.
+| Model | MSE | SSIM | PSNR |
+|---|---|---|---|
+| Bicubic (baseline) | 0.000070 | 0.9728 | 41.60 dB |
+| **MAE-SR** | **0.000062** | **0.9761** | **42.10 dB** |
 
 ## Repository Structure
 | Folder | Description |
